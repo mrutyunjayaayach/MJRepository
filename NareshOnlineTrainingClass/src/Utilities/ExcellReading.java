@@ -24,11 +24,13 @@ public class ExcellReading {
 		//(sheet1.getRow(i).getCell(0).getStringCellValue();
  			String data=sheet1.getRow(i).getCell(0).getStringCellValue();
 			System.out.println("Data from row :"+data);
-			
+		//	test ng//'https://oss.sonatype.org/content/repositories/snapshots'
+
 		}
 		//System.out.print(sheet2.getRow(2).getCell(2).getStringCellValue()); 
 		wb.close();
 		//fis.close();
+		
 
 	}
 
