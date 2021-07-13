@@ -8,7 +8,7 @@ public class Calander {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mruty\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mruty\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.spicejet.com/");

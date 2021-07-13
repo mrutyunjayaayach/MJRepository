@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-09T08:53:58 IST" name="candidatepsiexam" finished-at="2021-07-09T08:54:44 IST" duration-ms="46426">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateAnAccount.valid_mail()[pri:4, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" name="valid_mail" class="com.candidatepsi.cases.CreateAnAccount"/>
+        <method signature="CreateAnAccount.validate_error_message_mandatory_fields()[pri:1, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" name="validate_error_message_mandatory_fields" class="com.candidatepsi.cases.CreateAnAccount"/>
+        <method signature="RegisterForExamination.Signin()[pri:6, instance:com.candidatepsi.cases.RegisterForExamination@5bd03f44]" name="Signin" class="com.candidatepsi.cases.RegisterForExamination"/>
+        <method signature="RegisterForExamination.Username_or_password_invalid()[pri:5, instance:com.candidatepsi.cases.RegisterForExamination@5bd03f44]" name="Username_or_password_invalid" class="com.candidatepsi.cases.RegisterForExamination"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-07-09T08:53:58 IST" name="regression" finished-at="2021-07-09T08:54:44 IST" duration-ms="46426">
+      <class name="com.candidatepsi.cases.RegisterForExamination">
+        <test-method signature="Username_or_password_invalid()[pri:5, instance:com.candidatepsi.cases.RegisterForExamination@5bd03f44]" started-at="2021-07-09T08:54:30 IST" name="Username_or_password_invalid" finished-at="2021-07-09T08:54:38 IST" duration-ms="7927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username_or_password_invalid -->
+        <test-method signature="Signin()[pri:6, instance:com.candidatepsi.cases.RegisterForExamination@5bd03f44]" started-at="2021-07-09T08:54:38 IST" name="Signin" finished-at="2021-07-09T08:54:44 IST" duration-ms="6317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+      </class> <!-- com.candidatepsi.cases.RegisterForExamination -->
+      <class name="com.candidatepsi.cases.CreateAnAccount">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" started-at="2021-07-09T08:53:58 IST" name="launchbrowser" finished-at="2021-07-09T08:54:07 IST" duration-ms="9146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="clickoncreateaccountlink()[pri:0, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" started-at="2021-07-09T08:54:07 IST" name="clickoncreateaccountlink" finished-at="2021-07-09T08:54:09 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncreateaccountlink -->
+        <test-method signature="validate_error_message_mandatory_fields()[pri:1, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" started-at="2021-07-09T08:54:09 IST" name="validate_error_message_mandatory_fields" finished-at="2021-07-09T08:54:09 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_error_message_mandatory_fields -->
+        <test-method signature="valid_mail()[pri:4, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" started-at="2021-07-09T08:54:09 IST" name="valid_mail" finished-at="2021-07-09T08:54:30 IST" duration-ms="20765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_mail -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.candidatepsi.cases.CreateAnAccount@470f1802]" started-at="2021-07-09T08:54:44 IST" name="closebrowser" finished-at="2021-07-09T08:54:44 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.candidatepsi.cases.CreateAnAccount -->
+    </test> <!-- regression -->
+  </suite> <!-- candidatepsiexam -->
+</testng-results>
