@@ -15,6 +15,7 @@ public class LunchBrowser {
 		System.out.println(titlename);
 		driver.findElement(By.id("homeval")).clear();
 		Thread.sleep(500);
+		
 		driver.findElement(By.id("homeval")).sendKeys("500");
 		Thread.sleep(50);
 		driver.findElement(By.id("downpayment")).clear();

@@ -30,7 +30,7 @@ class HelloWorld {
           
           
               System.out.print("Enter user1 Name: ");
-          a1=SC1.nextLine();
+          a1=SC1.next();
           System.out.print("Enter Address: ");
           b1=SC1.nextLine();
  

@@ -2,9 +2,10 @@
 public class Addition  {
 	public static void main(String[] args) {
 	}
-	public  int a=200;
-	void m1() {
+	  int a=200,b=300,sum;
+	sum=a+b;
+	
 	}
 
-}
+
 
